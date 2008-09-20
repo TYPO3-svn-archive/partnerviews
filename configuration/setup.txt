@@ -1,0 +1,35 @@
+temp.tx_partnerviews.common {
+	pathToLanguageFile = EXT:partnerviews/locallang.xml
+	pathToTemplateDirectory = EXT:partnerviews/templates
+	resultsPerView = 6
+	moderatedSubmits = 0
+	listTemplate = list.php
+
+	feLoginTemplate = fe_login.php
+
+	feEditListTemplate = fe_edit_list.php
+	feEditFormTemplate = fe_edit_form.php
+	feEditPreviewTemplate = fe_edit_preview.php
+	feEditStoreTemplate = fe_edit_store.php
+
+	feNewSelectTemplate = fe_new_select.php
+	feNewStoreTemplate = fe_new_store.php
+
+	dateFormat = %d. %B %Y
+}
+
+plugin.tx_partnerviews.list = USER_INT
+plugin.tx_partnerviews.list.userFunc = tx_partnerviews_controllers_list->main
+plugin.tx_partnerviews.list.configurations < temp.tx_partnerviews.common
+
+plugin.tx_partnerviews.fenew = USER_INT
+plugin.tx_partnerviews.fenew.userFunc = tx_partnerviews_controllers_fenew->main
+plugin.tx_partnerviews.fenew.configurations < temp.tx_partnerviews.common
+
+plugin.tx_partnerviews.feedit = USER_INT
+plugin.tx_partnerviews.feedit.userFunc = tx_partnerviews_controllers_feedit->main
+plugin.tx_partnerviews.feedit.configurations < temp.tx_partnerviews.common
+
+tt_content.list.20.tx_partnerviews_controllers_list =< plugin.tx_partnerviews.list
+tt_content.list.20.tx_partnerviews_controllers_fenew =< plugin.tx_partnerviews.fenew
+tt_content.list.20.tx_partnerviews_controllers_feedit =< plugin.tx_partnerviews.feedit

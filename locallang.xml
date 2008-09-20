@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>database</type>
+		<description>Language labels for 'bananas'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="minus">minus</label>
+			<label index="select">Select entry</label>
+			<label index="plus">plus</label>
+			<label index="by">by</label>
+			<label index="date">published</label>
+			<label index="url">homepage</label>
+			<label index="store">Save</label>
+			<label index="preview">Preview</label>
+			<label index="clear">Clear</label>
+			<label index="edit">Edit</label>
+			<label index="create">Create</label>
+			<label index="emptyTitleError">Please enter a title.</label>
+			<label index="emptyTextError">Please enter a text.</label>
+			<label index="emptyAuthorError">Please enter your name.</label>
+			<label index="emptyEmailError">Please enter your email.</label>
+			<label index="invalidEmailError">Please enter a valid email.</label>
+			<label index="invalidUrlError">Please enter a valid url.</label>
+			<label index="org_name">Organisationname</label>
+			<label index="street">Street</label>
+			<label index="street_number">Number</label>
+			<label index="postal_code">Postal Code </label>
+			<label index="locality">City</label>
+			<label index="org_type">Organisation Type</label>
+			<label index="editmore">Edit another address</label>
+			<label index="label">Label</label>
+			<label index="automatically_set">(set automatically)</label>
+			<label index="admin_area">Region</label>
+			<label index="country">Country</label>
+			<label index="po_number">Postbox number</label>
+			<label index="po_no_number">Postbox without number</label>
+			<label index="po_postal_code">Postal Code </label>
+			<label index="po_locality">City</label>
+			<label index="po_admin_area">Region</label>
+			<label index="po_country">Country</label>
+			<label index="remarks">Remarks</label>
+			<label index="first_name">First Name</label>
+			<label index="middle_name">Middle Name</label>
+			<label index="last_name">Last Name</label>
+			<label index="letter_title">Letter Title</label>
+			<label index="last_name_prefix">Last Name Prefix</label>
+			<label index="title">Title</label>
+			<label index="maiden_name">Maiden Name</label>
+			<label index="general_suffix">General Suffix</label>
+			<label index="initials">Initials</label>
+			<label index="birth_date">Birth Date</label>
+			<label index="birth_place">Birth Place</label>
+			<label index="death_date">Death Date</label>
+			<label index="death_place">Death Place</label>
+			<label index="gender">Gender</label>
+			<label index="marital_status">Marital Status</label>
+			<label index="nationality">Nationality</label>
+			<label index="religion">Religion</label>
+			<label index="mother_tongue">Mother Tongue</label>
+			<label index="preferred_language">Preferred Language</label>
+			<label index="unknown">Unknown</label>
+			<label index="male">Male</label>
+			<label index="female">Female</label>
+			<label index="check_data">Please check the data for correctness</label>
+			<label index="organisation">Organisation</label>
+			<label index="person">Person</label>
+			<label index="please_login_first">Sorry, you are no able to create new records. Please login first.</label>
+		</languageKey>
+		<languageKey index="de" type="array">
+			<label index="minus">weniger</label>
+			<label index="plus">und</label>
+			<label index="by">von</label>
+			<label index="date">veröffentlicht am</label>
+			<label index="url">Homepage</label>
+			<label index="select">Eintrag auswählen</label>
+			<label index="preview">Vorschau</label>
+			<label index="edit">Bearbeiten</label>
+			<label index="create">Anlegen</label>
+			<label index="store">Speichern</label>
+			<label index="org_name">Name der Organisation</label>
+			<label index="street">Straße</label>
+			<label index="street_number">Nr.</label>
+			<label index="postal_code">PLZ</label>
+			<label index="locality">Ort</label>
+			<label index="org_type">Organisationstyp</label>
+			<label index="editmore">Weitere Adresse bearbeiten</label>
+			<label index="label">Bezeichnung</label>
+			<label index="automatically_set">(wird automatisch gesetzt)</label>
+			<label index="admin_area">Region</label>
+			<label index="country">Land</label>
+			<label index="po_number">Postfach</label>
+			<label index="po_no_number">Postfach ohne Nummer</label>
+			<label index="po_postal_code">PLZ</label>
+			<label index="po_locality">Ort</label>
+			<label index="po_admin_area">Region</label>
+			<label index="po_country">Land</label>
+			<label index="remarks">Bemerkungen</label>
+			<label index="first_name">Vorname</label>
+			<label index="middle_name">Mittlerer Name</label>
+			<label index="last_name">Nachname</label>
+			<label index="letter_title">Briefanrede</label>
+			<label index="last_name_prefix">Prefix zum Nachnamen</label>
+			<label index="title">Anrede</label>
+			<label index="maiden_name">Geburtsname</label>
+			<label index="general_suffix">Allgemeiner Anhang</label>
+			<label index="initials">Initialen</label>
+			<label index="birth_date">Geburtstag</label>
+			<label index="birth_place">Geburtsort</label>
+			<label index="death_date">Todestag</label>
+			<label index="death_place">Sterbeort</label>
+			<label index="gender">Geschlecht</label>
+			<label index="marital_status">Familienstand</label>
+			<label index="nationality">Nationalität</label>
+			<label index="religion">Religion</label>
+			<label index="mother_tongue">Muttersprache</label>
+			<label index="preferred_language">Bevorzugte Sprache</label>
+			<label index="unknown">Unbekannt</label>
+			<label index="male">Männlich</label>
+			<label index="female">Weiblich</label>
+			<label index="check_data">Bitte überprüfen Sie die Daten auf Korrektheit.</label>
+			<label index="organisation">Organisation</label>
+			<label index="person">Person</label>
+			<label index="please_login_first">Sie können keine Datensätze anlegen oder bearbeiten. Bitte melden Sie sich zuerst an.</label>
+		</languageKey>
+	</data>
+</T3locallang>
+
