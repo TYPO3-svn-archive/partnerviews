@@ -32,11 +32,6 @@
  * @since      0.1
  */
 
-/**
- *
- *
- *
- */
 class tx_partnerviews_controllers_feedit extends tx_lib_controller {
 
 	/**
